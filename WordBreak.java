@@ -8,15 +8,15 @@ import java.util.ArrayList;
  */
 public class WordBreak {
     public static void main(String[] args) {
-//        System.out.println(wordBreakRec("ilikesamsung"));
-//        System.out.println(wordBreakDP("ilikesamsung"));
+        System.out.println(wordBreakRec("ilikesamsung"));
+        System.out.println(wordBreakDP("ilikesamsung"));
         wordBreakPrintAll("ilikesamsung");
-//        System.out.println(wordBreakRec("samsungandmango"));
-//        System.out.println(wordBreakDP("samsungandmango"));
-//        wordBreakPrintAll("samsungandmango");
-//        System.out.println(wordBreakRec("samsungandmangok"));
-//        System.out.println(wordBreakDP("samsungandmangok"));
-//        wordBreakPrintAll("samsungandmangok");
+        System.out.println(wordBreakRec("samsungandmango"));
+        System.out.println(wordBreakDP("samsungandmango"));
+        wordBreakPrintAll("samsungandmango");
+        System.out.println(wordBreakRec("samsungandmangok"));
+        System.out.println(wordBreakDP("samsungandmangok"));
+        wordBreakPrintAll("samsungandmangok");
     }
     public static boolean wordBreakRec(String s){
         int len = s.length();
