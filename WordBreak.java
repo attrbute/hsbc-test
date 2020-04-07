@@ -118,11 +118,6 @@ public class WordBreak {
                 }
             }
         }
-
-//		for(int i=1; i<=len; i++){
-//			System.out.print(wb[i] + " ");
-//		}
-
         /*
            如果我们试过所有的前缀但没有一个有效
          */
