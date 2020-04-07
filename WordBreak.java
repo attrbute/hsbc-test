@@ -18,6 +18,7 @@ public class WordBreak {
         System.out.println(wordBreakDP("samsungandmangok"));
         wordBreakPrintAll("samsungandmangok");
     }
+    //recursive
     public static boolean wordBreakRec(String s){
         int len = s.length();
         if(len == 0){
